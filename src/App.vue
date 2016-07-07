@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <header class="mui-bar mui-bar-nav">
+      <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+      <h1 class="mui-title">折叠面板</h1>
+    </header>
     <img class="logo" src="./assets/logo.png">
     <hello></hello>
     <p>
@@ -9,6 +13,8 @@
       It seems you are using an outdated version of vue-cli.<br>
       Upgrade to vue-cli@2.x to get access to newer versions of this template.
     </p>
+
+
   </div>
 </template>
 
