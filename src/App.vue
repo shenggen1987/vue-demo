@@ -4,15 +4,16 @@
       <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
       <h1 class="mui-title">折叠面板</h1>
     </header>
-    <img class="logo" src="./assets/logo.png">
     <hello></hello>
-    <p>
-      Welcome to your Vue.js app!
-    </p>
-    <p style="color:red">
-      It seems you are using an outdated version of vue-cli.<br>
-      Upgrade to vue-cli@2.x to get access to newer versions of this template.
-    </p>
+    <div class="mui-content">
+        <div class="mui-content-padded">
+            <button type="button" class="mui-btn mui-btn-primary mui-btn-block">Block button
+            <br>fadsa
+            </button>
+            <button type="button" class="mui-btn mui-btn-success mui-btn-block">Block button</button>
+       
+        </div>
+    </div>
 
 
   </div>
