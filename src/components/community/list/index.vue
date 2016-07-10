@@ -46,19 +46,19 @@
 		</ul>
     </div>
 	<nav class="mui-bar mui-bar-tab">
-		<a class="mui-tab-item mui-active" href="#tabbar">
+		<a class="mui-tab-item mui-active" v-link="{ name: 'home' }">
 			<span class="mui-icon mui-icon-home"></span>
 			<span class="mui-tab-label">首页</span>
 		</a>
-		<a class="mui-tab-item" href="#tabbar-with-chat">
+		<a class="mui-tab-item" href="#tabbar-with-chat" v-link="{ name: 'score' }">
 			<span class="mui-icon mui-icon-chat"></span>
 			<span class="mui-tab-label">消息</span>
 		</a>
-		<a class="mui-tab-item" href="#tabbar-with-contact">
+		<a class="mui-tab-item" href="#tabbar-with-contact" v-link="{ name: 'question' }">
 			<span class="mui-icon mui-icon-contact"></span>
 			<span class="mui-tab-label">问医生</span>
 		</a>
-		<a class="mui-tab-item" href="#tabbar-with-map">
+		<a class="mui-tab-item" href="#tabbar-with-map" v-link="{ name: 'community' }">
 			<span class="mui-icon mui-icon-compose"></span>
 			<span class="mui-tab-label">记录</span>
 		</a>

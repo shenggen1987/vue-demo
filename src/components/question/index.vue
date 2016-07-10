@@ -12,18 +12,28 @@
         在过去的四周内，在工作、学习或家中，有多少时候哮喘妨碍您进行日常活动？
       </div>
         <div class="mui-content-padded">
-            <button type="button" class="mui-btn mui-btn-block">所有时间</button>
-       		<button type="button" class="mui-btn mui-btn-block">大多数时间</button>
-       		<button type="button" class="mui-btn mui-btn-block">有些时候</button>
-       		<button type="button" class="mui-btn mui-btn-block">很少时候</button>
-       		<button type="button" class="mui-btn mui-btn-block">没有</button>
+            <button type="button" class="mui-btn mui-btn-block" @click="goscore">所有时间</button>
+       		<button type="button" class="mui-btn mui-btn-block" @click="goscore">大多数时间</button>
+       		<button type="button" class="mui-btn mui-btn-block" @click="goscore">有些时候</button>
+       		<button type="button" class="mui-btn mui-btn-block" @click="goscore">很少时候</button>
+       		<button type="button" class="mui-btn mui-btn-block" @click="goscore">没有</button>
         </div>
     </div>
   </div>
 </template>
 
 <script>
-
+	export default {//这里是官方的写法，默认导出，ES6
+        data () { //ES6，等同于data:function(){}
+            return {
+            }
+        },
+        methods :{
+            goscore () {//方法，定义路由跳转，注意这里必须使用this，不然报错
+                this.$route.router.go({name:"score"});
+            }
+        }
+    }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

@@ -19,15 +19,25 @@
       </div>
         
     </div>
-	<footer class="mui-bar mui-bar-nav">
-      <button type="button" class="mui-btn mui-btn-success mui-btn-block">提交</button>
-    </footer>
+    <nav class="mui-bar mui-bar-tab">
+		<button type="button" class="mui-btn mui-btn-success mui-btn-block" @click="gocommunity">提交</button>
+	</nav>
 
   </div>
 </template>
 
 <script>
-
+	export default {//这里是官方的写法，默认导出，ES6
+        data () { //ES6，等同于data:function(){}
+            return {
+            }
+        },
+        methods :{
+            gocommunity () {//方法，定义路由跳转，注意这里必须使用this，不然报错
+                this.$route.router.go({name:"community"});
+            }
+        }
+    }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -76,10 +86,7 @@ height:100%;
   .mui-bar{
   	background-color: #4cd964;
   }
-  .mui-bar-nav{
-  	top: auto;
-  	bottom: 0;
-  }
+ 
 
  
 </style>
