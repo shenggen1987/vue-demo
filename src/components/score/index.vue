@@ -19,7 +19,7 @@
       </div>
         
     </div>
-    <nav class="mui-bar mui-bar-tab">
+    <nav class="mui-bar mui-bar-tab score-sub">
 		<button type="button" class="mui-btn mui-btn-success mui-btn-block" @click="gocommunity">提交</button>
 	</nav>
 
@@ -83,7 +83,7 @@ height:100%;
 	}
   }
 
-  .mui-bar{
+  .score-sub{
   	background-color: #4cd964;
   }
  

@@ -6,7 +6,7 @@
     <div class="mui-content">
       <ul class="mui-table-view">
 			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;" class="">
+				<a href="javascript:;" @click="gocommunityDetail">
 					<img class="mui-media-object mui-pull-left avatar" src="http://test.3dker.cn/statics/image/defaulthead.png">
 					<div class="mui-media-body">
 						李白
@@ -63,7 +63,7 @@
 			<span class="mui-tab-label">记录</span>
 		</a>
 		<a class="mui-tab-item" href="#tabbar-with-map">
-			<span class="mui-icon mui-icon-help"></span>
+			<span class="mui-icon iconfont icon-03-0023"></span>
 			<span class="mui-tab-label">药房</span>
 		</a>
 	</nav>
@@ -72,7 +72,17 @@
 </template>
 
 <script>
-
+	export default {//这里是官方的写法，默认导出，ES6
+        data () { //ES6，等同于data:function(){}
+            return {
+            }
+        },
+        methods :{
+            gocommunityDetail () {//方法，定义路由跳转，注意这里必须使用this，不然报错
+                this.$route.router.go({name:"communityDetail"});
+            }
+        }
+    }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -107,6 +117,14 @@
 	
 
   }
+  .mui-bar-tab{
+  	.mui-tab-item{
+  		.icon-03-0023{
+		  	top: 7px;
+		  	font-size: 19px;
+		  }
+  	}
+  } 
   
 
 

@@ -29,6 +29,18 @@ export default function ( router ){
       component : function ( resolve ){
         require(['./components/community/list/index.vue'], resolve)
       }
+    },
+    '/community/detail' : {
+      name : 'communityDetail',
+      component : function ( resolve ){
+        require(['./components/community/detail/index.vue'], resolve)
+      }
+    },
+    '/community/issue' : {
+      name : 'communityIssue',
+      component : function ( resolve ){
+        require(['./components/community/issue/index.vue'], resolve)
+      }
     }
 
   });
