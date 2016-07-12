@@ -13,8 +13,11 @@ export default {
 	isWeiXin (){
 		return !!/MicroMessenger/i.exec( ua );
 	},
+	isFile (){
+		return location.protocol === "file:"? true : false;
+	},
 	isHybrid (){
-		return this.isAndroid() || this.isIOS();
+		return this.isAndroid() || this.isIOS() || this.isFile();
 	},	
 	isWeb (){
 		return !isHybrid();			
