@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <header class="mui-bar mui-bar-nav">
+      <a id="info" class="J-issue mui-pull-right" href="javascript:;" @click="gocommunityIssue">新回复</a>
       <h1 class="mui-title">患友社区</h1>
     </header>
     <div class="mui-content">
@@ -80,6 +81,9 @@
         methods :{
             gocommunityDetail () {//方法，定义路由跳转，注意这里必须使用this，不然报错
                 this.$route.router.go({name:"communityDetail"});
+            },
+            gocommunityIssue(){
+            	this.$route.router.go({name:"communityIssue"});
             }
         }
     }
@@ -87,6 +91,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang='less' >
+  .J-issue{
+	line-height: 44px;
+  }
   .mui-content {
 	.mui-table-view{
 	  	&:first-child{

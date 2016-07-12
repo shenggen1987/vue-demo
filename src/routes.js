@@ -30,13 +30,13 @@ export default function ( router ){
         require(['./components/community/list/index.vue'], resolve)
       }
     },
-    '/community/detail' : {
+    '/communityDetail' : {
       name : 'communityDetail',
       component : function ( resolve ){
         require(['./components/community/detail/index.vue'], resolve)
       }
     },
-    '/community/issue' : {
+    '/communityIssue' : {
       name : 'communityIssue',
       component : function ( resolve ){
         require(['./components/community/issue/index.vue'], resolve)

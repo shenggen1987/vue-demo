@@ -11,7 +11,7 @@
     <div class="mui-content">
       <ul class="mui-table-view">
 			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;"  @click="J_share">
+				<a href="javascript:;">
 					<img class="mui-media-object mui-pull-left avatar" src="http://test.3dker.cn/statics/image/defaulthead.png">
 					<div class="mui-media-body">
 						李白
