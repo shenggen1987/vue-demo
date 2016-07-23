@@ -41,6 +41,18 @@ export default function ( router ){
       component : function ( resolve ){
         require(['./components/community/issue/index.vue'], resolve)
       }
+    },
+    '/doctor' : {
+      name : 'doctor',
+      component : function ( resolve ){
+        require(['./components/doctor/list/index.vue'], resolve)
+      }
+    },
+    '/doctorIssue' : {
+      name : 'doctorIssue',
+      component : function ( resolve ){
+        require(['./components/doctor/issue/index.vue'], resolve)
+      }
     }
 
   });

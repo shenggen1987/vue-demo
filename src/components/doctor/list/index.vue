@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <header class="mui-bar mui-bar-nav">
-      <a id="info" class="J-issue mui-pull-right" href="javascript:;" @click="gocommunityIssue">新回复</a>
-      <h1 class="mui-title">患友社区</h1>
+      <a id="info" class="J-issue mui-pull-right" href="javascript:;" @click="godoctorIssue">问诊</a>
+      <h1 class="mui-title">问医生</h1>
     </header>
     <div class="mui-content">
       <ul class="mui-table-view">
@@ -10,40 +10,58 @@
 				<a href="javascript:;" @click="gocommunityDetail">
 					<img class="mui-media-object mui-pull-left avatar" src="http://test.3dker.cn/statics/image/defaulthead.png">
 					<div class="mui-media-body">
-						李白
-						<p class="time">写于5月26日 10:23</p>
-						<p class="content">这个储物柜用了两个多月了，感觉吸药的效果比以前的直接对嘴吸要好多了</p>
-						<ul class="mui-table-view mui-grid-view">
-					        <li class="mui-table-view-cell mui-media mui-col-xs-6">
-				                <img class="mui-media-object" src="http://www.dcloud.io/hellomui/images/shuijiao.jpg">
-				            </li>
-				             <li class="mui-table-view-cell mui-media mui-col-xs-6">
-				                <img class="mui-media-object" src="http://www.dcloud.io/hellomui/images/shuijiao.jpg">
-				            </li>
-					        
-					    </ul>
+						<p class="content">医生您好，我们家宝宝三月份做肺功能检查，提示轻度阻塞性潮气功能障碍，支气管舒张实验阳性，一氧化氮正常，请问这个轻度性的阻塞性是什么意思，是不是肺气肿啊？</p>
 					</div>
 				</a>
 			</li>
 			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left" src="http://test.3dker.cn/statics/image/defaulthead.png">
+				<a href="javascript:;" @click="gocommunityDetail">
+					<img class="mui-media-object mui-pull-left avatar" src="http://test.3dker.cn/statics/image/defaulthead.png">
 					<div class="mui-media-body">
-						木屋
-						<p class="mui-ellipsis">想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+						<p class="content">请问孩子用辅舒酮期间可以打预防针吗？</p>
 					</div>
 				</a>
 			</li>
 			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left" src="http://test.3dker.cn/statics/image/defaulthead.png">
+				<a href="javascript:;" @click="gocommunityDetail">
+					<img class="mui-media-object mui-pull-left avatar" src="http://test.3dker.cn/statics/image/defaulthead.png">
 					<div class="mui-media-body">
-						CBD
-						<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+						<p class="content">请问孩子用辅舒酮期间可以打预防针吗？</p>
 					</div>
 				</a>
 			</li>
-
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;" @click="gocommunityDetail">
+					<img class="mui-media-object mui-pull-left avatar" src="http://test.3dker.cn/statics/image/defaulthead.png">
+					<div class="mui-media-body">
+						<p class="content">医生您好，我们家宝宝三月份做肺功能检查，提示轻度阻塞性潮气功能障碍，支气管舒张实验阳性，一氧化氮正常，请问这个轻度性的阻塞性是什么意思，是不是肺气肿啊？</p>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;" @click="gocommunityDetail">
+					<img class="mui-media-object mui-pull-left avatar" src="http://test.3dker.cn/statics/image/defaulthead.png">
+					<div class="mui-media-body">
+						<p class="content">医生您好，我们家宝宝三月份做肺功能检查，提示轻度阻塞性潮气功能障碍，支气管舒张实验阳性，一氧化氮正常，请问这个轻度性的阻塞性是什么意思，是不是肺气肿啊？</p>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;" @click="gocommunityDetail">
+					<img class="mui-media-object mui-pull-left avatar" src="http://test.3dker.cn/statics/image/defaulthead.png">
+					<div class="mui-media-body">
+						<p class="content">医生您好，我们家宝宝三月份做肺功能检查，提示轻度阻塞性潮气功能障碍，支气管舒张实验阳性，一氧化氮正常，请问这个轻度性的阻塞性是什么意思，是不是肺气肿啊？</p>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;" @click="gocommunityDetail">
+					<img class="mui-media-object mui-pull-left avatar" src="http://test.3dker.cn/statics/image/defaulthead.png">
+					<div class="mui-media-body">
+						<p class="content">医生您好，我们家宝宝三月份做肺功能检查，提示轻度阻塞性潮气功能障碍，支气管舒张实验阳性，一氧化氮正常，请问这个轻度性的阻塞性是什么意思，是不是肺气肿啊？</p>
+					</div>
+				</a>
+			</li>
 		</ul>
     </div>
 	<nav class="mui-bar mui-bar-tab">
@@ -82,8 +100,8 @@
             gocommunityDetail () {//方法，定义路由跳转，注意这里必须使用this，不然报错
                 this.$route.router.go({name:"communityDetail"});
             },
-            gocommunityIssue(){
-            	this.$route.router.go({name:"communityIssue"});
+            godoctorIssue(){
+            	this.$route.router.go({name:"doctorIssue"});
             },
             routerGo(name){
             	this.$route.router.go({name: name});
