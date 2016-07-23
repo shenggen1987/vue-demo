@@ -6,7 +6,7 @@
       	<span class="mui-icon iconfont icon-fenxiang"></span>
       </a> -->
       <a id="info" class="mui-icon iconfont icon-fenxiang d-share mui-pull-right" href="javascript:;" @click="J_share"></a>
-      <h1 class="mui-title">详情</h1>
+      <h1 class="mui-title">问诊详情</h1>
     </header>
     <div class="mui-content">
       <ul class="mui-table-view">
@@ -14,9 +14,19 @@
 				<a href="javascript:;">
 					<img class="mui-media-object mui-pull-left avatar" src="http://test.3dker.cn/statics/image/defaulthead.png">
 					<div class="mui-media-body">
-						李白
+						7777777
 						<p class="time">写于5月26日 10:23</p>
-						<p class="content">这个储物柜用了两个多月了，感觉吸药的效果比以前的直接对嘴吸要好多了</p>
+						<p class="content">孩子三岁半刚上幼儿园第二个月就因为感冒咳嗽，起初是扁桃体发炎加咳嗽，过些天就有
+						浓痰
+						孩子三岁半刚上幼儿园第二个月就因为感冒咳嗽，起初是扁桃体发炎加咳嗽，过些天就有
+						浓痰
+						孩子三岁半刚上幼儿园第二个月就因为感冒咳嗽，起初是扁桃体发炎加咳嗽，过些天就有
+						浓痰孩子三岁半刚上幼儿园第二个月就因为感冒咳嗽，起初是扁桃体发炎加咳嗽，过些天就有
+						浓痰孩子三岁半刚上幼儿园第二个月就因为感冒咳嗽，起初是扁桃体发炎加咳嗽，过些天就有
+						浓痰孩子三岁半刚上幼儿园第二个月就因为感冒咳嗽，起初是扁桃体发炎加咳嗽，过些天就有
+						浓痰孩子三岁半刚上幼儿园第二个月就因为感冒咳嗽，起初是扁桃体发炎加咳嗽，过些天就有
+						浓痰
+						</p>
 						<ul class="mui-table-view mui-grid-view">
 					        <li class="mui-table-view-cell mui-media mui-col-xs-6">
 				                <img class="mui-media-object" src="http://www.dcloud.io/hellomui/images/shuijiao.jpg">
@@ -37,43 +47,16 @@
 				<a href="javascript:;">
 					<img class="mui-media-object mui-pull-left avatar" src="http://test.3dker.cn/statics/image/defaulthead.png">
 					<div class="mui-media-body">
-						李白
+						白鲸医生
 						<p class="time">写于5月26日 10:23</p>
-						<p class="content">想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖</p>
+						<p class="content">
+							孩子不是哮喘，<br>
+							是支气管炎，鼻炎，存在细菌感染。请去正规儿科就诊，在医生指导下进行治疗。
+						</p>
 					</div>
 				</a>
 			</li>
-			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left avatar" src="http://test.3dker.cn/statics/image/defaulthead.png">
-					<div class="mui-media-body">
-						李白
-						<p class="time">写于5月26日 10:23</p>
-						<p class="content">想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖</p>
-					</div>
-				</a>
-			</li>
-			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left avatar" src="http://test.3dker.cn/statics/image/defaulthead.png">
-					<div class="mui-media-body">
-						李白
-						<p class="time">写于5月26日 10:23</p>
-						<p class="content">想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖</p>
-					</div>
-				</a>
-			</li>
-			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left avatar" src="http://test.3dker.cn/statics/image/defaulthead.png">
-					<div class="mui-media-body">
-						李白
-						<p class="time">写于5月26日 10:23</p>
-						<p class="content">想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖</p>
-					</div>
-				</a>
-			</li>
-
+			
 		</ul>
 
     </div>

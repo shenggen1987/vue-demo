@@ -53,6 +53,18 @@ export default function ( router ){
       component : function ( resolve ){
         require(['./components/doctor/issue/index.vue'], resolve)
       }
+    },
+    '/doctorDetail' : {
+      name : 'doctorDetail',
+      component : function ( resolve ){
+        require(['./components/doctor/detail/index.vue'], resolve)
+      }
+    },
+    '/record' : {
+      name : 'record',
+      component : function ( resolve ){
+        require(['./components/record/list/index.vue'], resolve)
+      }
     }
 
   });

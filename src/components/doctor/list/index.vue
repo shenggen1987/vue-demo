@@ -74,7 +74,7 @@
 			<span class="mui-tab-label">患有社区</span>
 		</a>
 		<a class="mui-tab-item1" href="javascript:;" @click="routerGo('doctor')">
-			<span class="mui-icon mui-icon-contact"></span>
+			<span class="mui-icon iconfont yisheng">&#xe603;</span>
 			<span class="mui-tab-label">问医生</span>
 		</a>
 		<a class="mui-tab-item1" href="javascript:;" @click="routerGo('record')">
@@ -98,7 +98,7 @@
         },
         methods :{
             gocommunityDetail () {//方法，定义路由跳转，注意这里必须使用this，不然报错
-                this.$route.router.go({name:"communityDetail"});
+                this.$route.router.go({name:"doctorDetail"});
             },
             godoctorIssue(){
             	this.$route.router.go({name:"doctorIssue"});
@@ -172,7 +172,11 @@
   		.icon-03-0023{
 		  	top: 7px;
 		  	font-size: 19px;
-		  }
+		 }
+		 .yisheng{
+			top: 7px;
+			font-size: 20px;
+		}
   	}
   } 
   
